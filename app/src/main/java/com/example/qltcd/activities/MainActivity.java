@@ -31,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, HopDongActivity.class);
             startActivity(intent);
         });
+        btnThanhToan.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ThanhToanActivity.class);
+            startActivity(intent);
+        });
 
         // Tương tự cho các button khác...
     }
